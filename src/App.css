@@ -1,0 +1,42 @@
+.dark-theme .recipe-item button,
+.dark-theme .favourite-item button {
+  background-color: #e67c00 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+.dark-theme {
+  background-color: #12343b !important;
+}
+
+.dark-theme .Search,
+.dark-theme .themeButton,
+.dark-theme .recipe-item button {
+  background-color: #12343b !important;
+  color: #fff !important;
+}
+
+.dark-theme .recipe-item {
+  background: #a5a0a0 !important;
+  color: #fff !important;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  padding: 15px;
+  background-color: yellowgreen;
+}
+
+.Search {
+  display: flex; /*space between childre */
+  gap: 20px; /*Keep buttons evenly spaced in a row*/
+  justify-content: center;
+}
+.Search input {
+  padding: 10px;
+  background-color: rgb(219, 221, 234);
+}
+
+.Search button {
+  background-color: rgb(255, 132, 0);
+}

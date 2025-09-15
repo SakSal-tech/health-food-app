@@ -1,0 +1,28 @@
+/* Make themeButton look like Search button */
+.themeButton {
+  background-color: #fa6400; /* orange background */
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 /2%);
+  border-radius: 4px;
+  border-color: #fa6400;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.Search {
+  background-color: #fa6400;
+  padding: 10px 50px;
+  color: #fff;
+  font-size: 16px;
+  /*First 0 — Horizontal offset The shadow is not moved left or right.
+If this was 5px, the shadow would be 5px to the right. 1px — Vertical offset
+The shadow is moved 1px down from the element. If this was -1px, the shadow would be 1px above.
+3px — Blur radius. The shadow edge is blurred by 3px, making it soft. If this was 0, the shadow would have a sharp edge.
+Last 0 — Spread radius. The shadow size is not increased or decreased. If this was 5px, the shadow would be 5px larger in all directions. */
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 /2%);
+  border-radius: 4px;
+  border-color: #fa6400;
+  cursor: [pointer];
+  margin-bottom: 30px;
+}
